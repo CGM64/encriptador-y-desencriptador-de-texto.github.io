@@ -30,6 +30,7 @@ main{
 #texto-entrada, #texto-salida{
     background: #000000;
     color: #FFFFFF;
+    border-radius: 30px;
 }
 
 .boton-entrada, .boton-salida{
