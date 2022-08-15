@@ -1,0 +1,75 @@
+body{
+    background: #2D572C;
+}
+
+main{
+    padding: 15px;
+}
+
+.caja{
+    text-align: center;
+    background: #000000;
+    padding: 40px 0px;
+}
+
+.caja h1{
+    width: 940px;
+    margin: 0 auto;
+    color: #CCCCCC;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.entrada, .salida{
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#texto-entrada, #texto-salida{
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.boton-entrada, .boton-salida{
+    width: 40%;
+    background: #820000;
+    color: #FFFFFF;
+    border-color: #820000;
+    padding: 8px;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.boton-entrada:hover, .boton-salida:hover{
+    transform: scale(1.2);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.pie-de-pagina{
+    text-align: center;
+    background: #000000;
+}
+
+.separador{
+    display: inline-block;
+}
+
+.pie-de-pagina p{
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 30px;
+}
+
+.red-social{
+    display: inline-block;
+}
+
+.hipervinculo{
+    width: 30px;
+    margin: 5px;
+}
